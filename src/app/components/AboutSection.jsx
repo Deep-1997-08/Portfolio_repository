@@ -61,10 +61,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a Senior Data Scientist with a Master's 
+             I'm a Data Scientist with a Master's 
             in Engineering Management from Northeastern University, 
-            specializing in Machine Learning and Data Science. With 
-            expertise in Python, R, and various ML techniques, I've led 
+            specializing in Machine Learning and Data Science. With
+            proficiency in Python, R, and various ML techniques, I've led 
             significant projects at Capgemini and Delphi Steel, achieving 
             milestones like a 5x reduction in computational costs and a 
             35% boost in workforce productivity. My work focuses on 
