@@ -39,10 +39,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I am an Data Scientist with a Master&apos;s degree 
-          in Engineering Management from Northeastern University, specializing 
-          in machine learning, data analytics, and optimizing computational 
-          processes. My expertise includes translating business needs into 
+          I am an Engineering Management graduate from Northeastern University with a concentration 
+          in Data Science. My proficiency includes translating business needs into 
           effective data-driven strategies, significantly enhancing model 
           accuracy, and driving substantial reductions in computational costs.
           </p>
