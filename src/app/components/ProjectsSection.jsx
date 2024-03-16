@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
+    id: 7,
     title: "AI Bot Exploration Project",
     description: "In this unique exploration, I venture into an unconventional gridworld characterized by a square grid of dimensions dim * dim. Each cell within this grid may be obstructed with a likelihood of 0.3, making navigation a challenge. The navigable cells are varied, potentially featuring flat, hilly, or forest terrains, differentiated within my model as 1 (blocked), 2 (flat terrain), 5 (hilly terrain), and 8 (forest terrain) in a NumPy array representation.",
     image: "/images/projects/1.png",
@@ -58,6 +58,15 @@ const projectsData = [
     tag: ["All",  "Web"],
     gitUrl: "https://github.com/Deep-1997-08/Deep_Learning/tree/main/Spam_Detection_with_TensorFlow_and_BERT",
     previewUrl: "https://github.com/Deep-1997-08/Deep_Learning/tree/main/Spam_Detection_with_TensorFlow_and_BERT",
+  },
+    {
+    id: 1,
+    title: "Precision Disease Diagnosis for Potatoes",
+    description: "Developed a sophisticated machine learning solution to diagnose potato plant diseases through image analysis. The project features a custom-built CNN model trained on high-quality images to distinguish between early and late blight. Deployed on GCP for robust scalability, it includes an intuitive web interface and cross-platform mobile apps for real-time disease detection, assisting farmers in protecting their crops. Achievements include a 97.45% accuracy rate and user-friendly applications for both Android and iOS, leveraging technologies like ReactJS, React Native, TensorFlow, and FastAPI.",
+    image: "/images/projects/7.png",
+    tag: ["All",  "Web"],
+    gitUrl: "https://github.com/Deep-1997-08/Precision_Disease_Diagnosis_for_Potatoes",
+    previewUrl: "https://github.com/Deep-1997-08/Precision_Disease_Diagnosis_for_Potatoes",
   },
 ];
 
