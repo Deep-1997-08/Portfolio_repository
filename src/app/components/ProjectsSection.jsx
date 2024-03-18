@@ -5,6 +5,7 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+      
       {
     id: 1,
     title: "Precision Disease Diagnosis for Potatoes",
@@ -14,9 +15,18 @@ const projectsData = [
     gitUrl: "https://github.com/Deep-1997-08/Precision_Disease_Diagnosis_for_Potatoes",
     previewUrl: "https://github.com/Deep-1997-08/Precision_Disease_Diagnosis_for_Potatoes",
   },
+       {
+    id: 2,
+    title: "AI-Powered Restaurant Conceptualization Tool",
+    description: "This application leverages the capabilities of OpenAI's language models through the Langchain library to automate the generation of restaurant names and menu items. It supports a variety of global cuisines and utilizes Python and Streamlit to provide a seamless and interactive user experience. With this tool, users can instantly generate creative and unique restaurant concepts complete with custom-tailored menu suggestions.The application is designed to offer a straightforward interface that simplifies the creative process. It is particularly beneficial for entrepreneurs in the culinary industry looking to find inspiration and a starting point for their restaurant branding and menu development. This tool stands out by providing not just names but also an ensemble of potential menu items that match the restaurant's theme, all derived through the power of AI.",
+    image: "/images/projects/8.png",
+    tag: ["All",  "Web"],
+    gitUrl: "https://github.com/Deep-1997-08/AI-Powered-Restaurant-Conceptualization-Tool-",
+    previewUrl: "https://github.com/Deep-1997-08/AI-Powered-Restaurant-Conceptualization-Tool-",
+  },
   {
     
-    id: 7,
+    id: 2,
     title: "AI Bot Exploration Project",
     description: "In this unique exploration, I venture into an unconventional gridworld characterized by a square grid of dimensions dim * dim. Each cell within this grid may be obstructed with a likelihood of 0.3, making navigation a challenge. The navigable cells are varied, potentially featuring flat, hilly, or forest terrains, differentiated within my model as 1 (blocked), 2 (flat terrain), 5 (hilly terrain), and 8 (forest terrain) in a NumPy array representation.",
     image: "/images/projects/1.png",
@@ -25,7 +35,7 @@ const projectsData = [
     previewUrl: "https://github.com/Deep-1997-08/AI-Exploration-Project",
   },
   {
-    id: 2,
+    id: 8,
     title: "Anomaly Based Intrusion Detection System",
     description: "The Intrusion Detection Framework Using the UNSW_NB15 Dataset project utilizes the UNSW_NB15 dataset to distinguish between normal and malicious network traffic. It employs a Spark ML Pipeline that transforms data, assembles features, and applies a Random Forest Classifier configured with 150 trees and a maximum depth of 15. The model achieves a 97.286% accuracy rate, demonstrating high efficacy in detecting network anomalies through a mix of categorical and numerical features.",
     image: "/images/projects/2.png",
